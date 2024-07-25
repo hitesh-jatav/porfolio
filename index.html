@@ -11,6 +11,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 
@@ -21,40 +22,44 @@
             <h1>Hitesh Jatav</h1>
             <h3>
                 <i class="fa-solid fa-less-than"></i>
-                <b> Software Developer /</b> 
-                <i class="fa-solid fa-greater-than"></i></h3>
+                <b> Software Developer /</b>
+                <i class="fa-solid fa-greater-than"></i>
+            </h3>
         </div>
     </div>
 
 
-    <div id="about">
-        <h1>About Me</h1>
-        <div>
+    <div id="about" class="row">
+        <div class="col-md-7 col-sm-12 col-lg-7">
+            <h1>About Me</h1>
+            <br>
+            <p>
+                Hi! I’m Hitesh Jatav, and Software development is my passion.<br><br>
+                I love creating web applications and websites that people enjoy using and take pride in delivering
+                robust
+                and scalable solutions.<br><br>
+                When I’m not coding, you can find me exploring new tech trends or enjoying a good book.<br><br>
+                Feel free to check out some of my projects on github!<br><br>
+                Interested in collaborating? I’d love to connect!
+            </p>
+            <br><br>
+            <span id="email">
+                <i class="fa-solid fa-envelope"></i> hkjatav@gmail.com
+            </span>
+
+        </div>
+
+        <div class="col-md-5 col-sm-12 col-lg-5 ">
             <div id="self">
                 <img class="img-responsive" src="https://avatars.githubusercontent.com/u/72374919?v=4">
             </div>
         </div>
-        <br>
-        <p>
-            Hi! I’m Hitesh Jatav, and Software development is my passion.<br><br>
-            I love creating web applications and websites that people enjoy using and take pride in delivering robust
-            and scalable solutions.<br><br>
-            When I’m not coding, you can find me exploring new tech trends or enjoying a good book.<br><br>
-            Feel free to check out some of my projects on github!<br><br>
-            Interested in collaborating? I’d love to connect!
-        </p>
-        <br><br>
-        <span id="email">
-            <i class="fa-solid fa-envelope"></i> hkjatav@gmail.com
-        </span>
-
-
     </div>
 
     <div id="portfolio">
 
-        <div id="port" class="container">
-            <div class="card-wrap">
+        <div id="port" class="row">
+            <div class="card-wrap col-lg-4 col-sm-12 col-md-3 ">
                 <div class="card-header">
                     <i class="fab fa-js"></i>
                     <h3>Javascript</h3>
@@ -72,7 +77,7 @@
                     <h3>Bootstrap</h3>
                 </div>
             </div>
-            <div class="card-wrap">
+            <div class="card-wrap col-lg-4 col-sm-12 col-md-3">
                 <div class="card-header">
                     <i class="fab fa-node-js"></i>
                     <h3>NODEJS</h3>
@@ -90,7 +95,7 @@
                     <h3>Reactjs</h3>
                 </div>
             </div>
-            <div class="card-wrap">
+            <div class="card-wrap col-lg-4 col-sm-12 col-md-3">
                 <div class="card-header">
                     <i class="fab fa-github"></i>
                     <h3>GITHUB</h3>
